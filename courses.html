@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - EduLearn</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>EduLearn</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="courses.html" class="nav-link active">Courses</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Courses</h1>
+                <p>Discover a wide range of courses designed to help you achieve your goals</p>
+            </div>
+        </section>
+
+        <section class="courses-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Courses</button>
+                    <button class="filter-btn" data-category="programming">Programming</button>
+                    <button class="filter-btn" data-category="design">Design</button>
+                    <button class="filter-btn" data-category="business">Business</button>
+                    <button class="filter-btn" data-category="marketing">Marketing</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses-grid">
+            <div class="container">
+                <div class="courses-container">
+                    <div class="course-card" data-category="programming">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&w=400" alt="Web Development">
+                        <div class="course-content">
+                            <h3>Complete Web Development</h3>
+                            <p>Learn HTML, CSS, JavaScript, and modern frameworks</p>
+                            <div class="course-meta">
+                                <span class="duration"><i class="fas fa-clock"></i> 40 hours</span>
+                                <span class="level"><i class="fas fa-signal"></i> Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="price">₹20000</span>
+                                <button class="btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&w=400" alt="UI/UX Design">
+                        <div class="course-content">
+                            <h3>UI/UX Design Masterclass</h3>
+                            <p>Master user interface and user experience design principles</p>
+                            <div class="course-meta">
+                                <span class="duration"><i class="fas fa-clock"></i> 30 hours</span>
+                                <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="price">₹25000</span>
+                                <button class="btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-category="programming">
+                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&w=400" alt="Python Programming">
+                        <div class="course-content">
+                            <h3>Python for Data Science</h3>
+                            <p>Learn Python programming for data analysis and machine learning</p>
+                            <div class="course-meta">
+                                <span class="duration"><i class="fas fa-clock"></i> 50 hours</span>
+                                <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="price">₹25000</span>
+                                <button class="btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-category="business">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&w=400" alt="Business Strategy">
+                        <div class="course-content">
+                            <h3>Business Strategy & Leadership</h3>
+                            <p>Develop essential business and leadership skills</p>
+                            <div class="course-meta">
+                                <span class="duration"><i class="fas fa-clock"></i> 25 hours</span>
+                                <span class="level"><i class="fas fa-signal"></i> Advanced</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="price">₹30000</span>
+                                <button class="btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-category="marketing">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&w=400" alt="Digital Marketing">
+                        <div class="course-content">
+                            <h3>Digital Marketing Essentials</h3>
+                            <p>Master SEO, social media, and online advertising</p>
+                            <div class="course-meta">
+                                <span class="duration"><i class="fas fa-clock"></i> 35 hours</span>
+                                <span class="level"><i class="fas fa-signal"></i> Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="price">₹25000</span>
+                                <button class="btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&w=400" alt="Graphic Design">
+                        <div class="course-content">
+                            <h3>Graphic Design Fundamentals</h3>
+                            <p>Learn design principles, typography, and visual communication</p>
+                            <div class="course-meta">
+                                <span class="duration"><i class="fas fa-clock"></i> 28 hours</span>
+                                <span class="level"><i class="fas fa-signal"></i> Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="price">₹15000</span>
+                                <button class="btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-categories">
+            <div class="container">
+                <h2>Browse by Category</h2>
+                <div class="categories-grid">
+                    <div class="category-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                        <p>50+ courses</p>
+                    </div>
+                    <div class="category-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Design</h3>
+                        <p>30+ courses</p>
+                    </div>
+                    <div class="category-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Business</h3>
+                        <p>40+ courses</p>
+                    </div>
+                    <div class="category-item">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>Marketing</h3>
+                        <p>25+ courses</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EduLearn</h3>
+                    <p>Empowering learners worldwide with quality education</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
